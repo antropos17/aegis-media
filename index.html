@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>AEGIS — What ran behind the reply?</title>
+  <meta name="description" content="Follow detected AI-agent processes, inspect observed activity and review alerts in AEGIS, an open-source Windows-first desktop monitor.">
+  <link rel="canonical" href="https://antropos17.github.io/aegis-media/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AEGIS — What ran behind the reply?">
+  <meta property="og:description" content="A local desktop workspace for following AI-agent processes and investigating observed activity. Windows beta. MIT licensed.">
+  <meta property="og:url" content="https://antropos17.github.io/aegis-media/">
+  <meta property="og:image" content="https://antropos17.github.io/aegis-media/assets/aegis-cover.png">
+  <meta property="og:image:alt" content="AEGIS editorial illustration of activity branching beyond an AI reply.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AEGIS — What ran behind the reply?">
+  <meta name="twitter:description" content="Follow detected AI-agent processes and investigate observed activity. Open-source Windows beta.">
+  <meta name="twitter:image" content="https://antropos17.github.io/aegis-media/assets/aegis-cover.png">
+  <style>
+    :root{--ink:#18201e;--paper:#f2f4ee;--mint:#bbd8c3;--muted:#46534b;--line:#d2d9ce;--gutter:clamp(1.25rem,4.7vw,5.5rem);--font:"Segoe UI Variable Text","Segoe UI",system-ui,sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);font-size:clamp(1rem,.9rem + .25vw,1.2rem);line-height:1.6;-webkit-font-smoothing:antialiased}a{color:inherit;text-underline-offset:.22em;text-decoration-thickness:.07em}a:hover{text-decoration-thickness:.12em}a:focus-visible{outline:3px solid currentColor;outline-offset:5px}img{display:block;max-width:100%;height:auto}h1,h2,h3,p,figure{margin:0}h1,h2,h3{font-family:"Segoe UI Variable Display",var(--font);font-weight:600}h2{font-size:clamp(2rem,3.8vw,3.8rem);line-height:1.12;letter-spacing:-.045em}h3{font-size:1.12rem;line-height:1.3;letter-spacing:-.015em}p{max-width:64ch}.wrap{max-width:1600px;margin-inline:auto;padding-inline:var(--gutter)}.skip{position:absolute;left:1rem;top:-5rem;background:var(--paper);padding:.6rem 1rem;z-index:3}.skip:focus{top:1rem}.header{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-block:1.6rem}.brand{font-size:1.65rem;font-weight:700;letter-spacing:-.065em;text-decoration:none}.header nav{display:flex;flex-wrap:wrap;gap:clamp(1.1rem,3vw,2.7rem);font-size:.95rem}.header nav a{text-decoration:none}.header nav a:hover{text-decoration:underline}.hero{padding-top:clamp(3.3rem,7vw,7rem);padding-bottom:clamp(2.8rem,6vw,6rem)}.hero-grid{display:grid;grid-template-columns:1.35fr 1fr;align-items:end;gap:clamp(2rem,5vw,5rem)}h1{font-size:clamp(3.6rem,7.9vw,8.5rem);line-height:.98;letter-spacing:-.065em;max-width:10ch;text-wrap:balance}.intro{padding-bottom:.3rem}.intro p{font-size:clamp(1.1rem,1.6vw,1.5rem);line-height:1.5;max-width:36ch}.intro p+p{margin-top:1rem;font-size:1rem;color:var(--muted)}.actions{display:flex;flex-wrap:wrap;align-items:center;gap:1.1rem 1.6rem;margin-top:1.8rem}.button{display:inline-flex;justify-content:center;align-items:center;min-height:3.2rem;padding:.75rem 1.25rem;background:var(--ink);color:var(--paper);font-size:1rem;font-weight:600;text-decoration:none;border:1px solid var(--ink);border-radius:4px}.button:hover{background:#314439;text-decoration:none}.quiet-link{font-size:.95rem}.art{background:var(--ink)}.art img{width:100%;max-height:810px;object-fit:contain}.art figcaption{padding:.7rem 0 1rem;color:#d6e0d8;font-size:.8rem}.section{padding-block:clamp(3.8rem,7vw,7.5rem)}.section-heading{display:grid;grid-template-columns:1fr 1fr;align-items:start;gap:2rem;margin-bottom:2.8rem}.section-heading p{max-width:46ch;padding-top:.3rem;color:var(--muted)}.investigation{display:grid;grid-template-columns:minmax(15rem,.7fr) minmax(0,2fr);gap:clamp(2rem,3vw,3.8rem);align-items:start}.steps{list-style:none;margin:0;padding:0;counter-reset:step}.steps li{position:relative;padding:0 0 1.5rem 2.5rem;counter-increment:step}.steps li::before{content:counter(step);position:absolute;left:0;top:.05rem;font-weight:600;font-size:1rem;color:var(--muted)}.steps li:not(:last-child)::after{content:"";position:absolute;left:.3rem;top:1.8rem;bottom:.3rem;width:1px;background:var(--line)}.steps p{margin-top:.45rem;color:var(--muted);font-size:.96rem;line-height:1.5}.screen a{display:block;border:1px solid #a5b1a5;border-radius:6px;overflow:hidden;background:#17201c}.screen img{width:100%}figcaption{font-size:.81rem;color:var(--muted);line-height:1.5;margin-top:.8rem;max-width:85ch}figcaption a{display:inline!important;border:0!important;background:none!important;border-radius:0!important}.detail{padding-top:0}.detail-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(16rem,1fr);gap:clamp(2rem,5vw,5rem);align-items:center}.detail-copy p{margin-top:1.4rem;color:var(--muted);max-width:39ch}.detail-copy a{display:inline-block;margin-top:1.3rem;font-size:.95rem}.boundary{background:var(--ink);color:var(--paper);padding-block:clamp(3rem,5.4vw,5.5rem)}.boundary-grid{display:grid;grid-template-columns:.9fr 1.4fr;gap:clamp(2rem,5vw,6rem)}.boundary h2{max-width:12ch}.boundary-copy p{font-size:1rem;color:#d7e1d9;max-width:66ch}.boundary-copy p+p{margin-top:1rem}.boundary a{color:var(--mint)}.final{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;padding-block:clamp(3rem,5vw,5rem)}.final .actions{margin-top:0;justify-content:flex-end}.final p{margin-top:.9rem;color:var(--muted);font-size:1rem}.footer{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.8rem 2rem;border-top:1px solid var(--line);padding-block:1.5rem;font-size:.85rem;color:var(--muted)}.footer a{white-space:nowrap}.footer-links{display:flex;flex-wrap:wrap;gap:1.5rem}.release{display:inline-block;font-size:.8rem;border:1px solid var(--line);border-radius:3px;padding:.15rem .5rem;margin-left:.8rem;vertical-align:middle;letter-spacing:0;font-weight:400}
+    @media(min-width:1601px){.art .wrap{max-width:1600px}}
+    @media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:2rem}h1{max-width:12ch}.intro{max-width:58ch}.intro p{max-width:48ch}.section-heading{grid-template-columns:1fr;gap:1rem}.investigation{grid-template-columns:1fr}.steps{display:grid;grid-template-columns:1fr 1fr;gap:1rem 2rem}.steps li{padding-bottom:.5rem}.steps li::after{display:none}.detail-grid{grid-template-columns:1fr}.detail-copy{grid-row:1}.detail-copy p{max-width:55ch}.boundary-grid{grid-template-columns:1fr}.boundary h2{max-width:18ch}.final{grid-template-columns:1fr}.final .actions{justify-content:flex-start}}
+    @media(max-width:520px){.header{padding-block:1.15rem;align-items:flex-start}.header nav{gap:.4rem;flex-direction:column;align-items:flex-end;font-size:.8rem}.brand{font-size:1.45rem}.release{display:block;margin-left:0;margin-top:.3rem;width:max-content}.hero{padding-top:2.8rem}h1{font-size:clamp(3.4rem,13vw,4.5rem)}.intro p{font-size:1.1rem}.actions{gap:1rem}.button{width:100%;min-height:3.5rem}.steps{grid-template-columns:1fr}.screen a{border-radius:3px}.footer{align-items:flex-start}.footer-links{gap:.5rem 1rem}.final .actions{align-items:flex-start;flex-direction:column}.final .actions .button{width:100%}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header wrap">
+    <a class="brand" href="https://github.com/antropos17/Aegis" aria-label="AEGIS source repository">AEGIS<span class="release">Windows beta</span></a>
+    <nav aria-label="Project links">
+      <a href="https://github.com/antropos17/Aegis">Source code</a>
+      <a href="https://github.com/antropos17/Aegis/blob/master/docs/README.md">Documentation</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-grid">
+        <h1 id="hero-title">What ran behind the reply?</h1>
+        <div class="intro">
+          <p>Follow your detected AI agents from their process trees to observed file activity and network endpoints.</p>
+          <p>AEGIS puts the investigation in a local desktop workspace. Open source, MIT licensed, built for Windows first.</p>
+          <div class="actions">
+            <a class="button" href="https://github.com/antropos17/Aegis/releases/tag/aegis-v0.20.1-beta">Download Windows beta</a>
+            <a class="quiet-link" href="#investigate">See the interface</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <figure class="art">
+      <div class="wrap">
+        <img src="assets/aegis-cover.png" alt="Editorial illustration of activity branching beyond an AI reply, with AEGIS as an observation point." width="1672" height="941" fetchpriority="high">
+        <figcaption>Editorial illustration. Product interface shown below.</figcaption>
+      </div>
+    </figure>
+    <section class="section wrap" id="investigate" aria-labelledby="investigate-title">
+      <div class="section-heading">
+        <h2 id="investigate-title">Start with one agent.<br>Follow the activity.</h2>
+        <p>A reply can leave questions about what happened on your machine. AEGIS gives you a place to examine the observations that are available.</p>
+      </div>
+      <div class="investigation">
+        <ol class="steps">
+          <li><h3>Find a detected agent</h3><p>See its processes alongside resource use and sensor status.</p></li>
+          <li><h3>Follow the process tree</h3><p>Inspect the observed parent and child process relationships.</p></li>
+          <li><h3>Inspect observed activity</h3><p>Review TCP endpoints and activity in configured file locations.</p></li>
+          <li><h3>Review an alert</h3><p>Inspect captured evidence and export a report for further investigation.</p></li>
+        </ol>
+        <figure class="screen">
+          <a href="assets/01-monitoring.png" aria-label="Open full-size Monitoring workspace screenshot"><img src="assets/01-monitoring.png" alt="AEGIS Monitoring workspace showing agent activity and resource views with simulated data." width="1200" height="800" loading="lazy"></a>
+          <figcaption>Monitoring workspace. Simulated source UI, 11 October 2026. <a href="https://github.com/antropos17/Aegis/blob/master/docs/screenshots/README.md">Capture provenance</a>. Select the image to view it at full size.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="section detail wrap" aria-labelledby="process-title">
+      <div class="detail-grid">
+        <figure class="screen">
+          <a href="assets/02-agents.png" aria-label="Open full-size Agents workspace screenshot"><img src="assets/02-agents.png" alt="AEGIS Agents workspace with simulated detected agent instances and process information." width="1200" height="800" loading="lazy"></a>
+          <figcaption>Agents workspace. Simulated source UI, 11 October 2026. These captures show the source interface; the release notes describe each installer.</figcaption>
+        </figure>
+        <div class="detail-copy">
+          <h2 id="process-title">Keep the process in view.</h2>
+          <p>Move from an agent to its processes, files and connections. Use local security reviews to inspect project, skill and profile configuration.</p>
+          <p>Claude Code usage subtotals and estimated costs add context. Exports help carry an investigation beyond the desktop.</p>
+          <a href="https://github.com/antropos17/Aegis/blob/master/docs/CAPABILITIES.md">Read the capability guide</a>
+        </div>
+      </div>
+    </section>
+    <section class="boundary" aria-labelledby="boundary-title">
+      <div class="boundary-grid wrap">
+        <h2 id="boundary-title">Know what the observations mean.</h2>
+        <div class="boundary-copy">
+          <p>Default monitoring observes and records activity. Process actions are explicit. Selected-action policies and MCP gateways require separate setup and cover activity routed through them.</p>
+          <p>Coverage depends on sensors and process identity. Unknown or short-lived processes and some file activity can be missed. AEGIS does not automatically contain every agent or intercept every command.</p>
+          <p>Monitoring data is stored locally. DNS naming and GitHub update checks use the network; optional Anthropic analysis sends activity metadata on request, using your API key and provider charges. <a href="https://github.com/antropos17/Aegis/blob/master/SECURITY.md#privacy-architecture">Privacy details</a>.</p>
+          <p>Windows is the primary platform. macOS and Linux remain experimental. The published installer is 0.20.1-beta; newer source work can differ. <a href="https://github.com/antropos17/Aegis/blob/master/docs/BETA-READINESS.md">Beta readiness and limits</a>.</p>
+        </div>
+      </div>
+    </section>
+    <section class="final wrap" aria-labelledby="try-title">
+      <div><h2 id="try-title">Take a closer look.</h2><p>Read the release notes and verify your download before installing.</p></div>
+      <div class="actions">
+        <a class="button" href="https://github.com/antropos17/Aegis/releases/tag/aegis-v0.20.1-beta">Download Windows beta</a>
+        <a class="quiet-link" href="https://github.com/antropos17/Aegis/blob/master/docs/RELEASE-VERIFICATION.md">Verify the download</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer wrap">
+    <p>AEGIS project. Published 26 October 2026.</p>
+    <div class="footer-links"><a href="https://github.com/antropos17/Aegis/discussions/1091">Share feedback</a><a href="https://github.com/antropos17/Aegis/blob/master/LICENSE">MIT license</a><a href="https://github.com/antropos17/Aegis">Source code</a></div>
+  </footer>
+</body>
+</html>
