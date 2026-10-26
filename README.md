@@ -43,5 +43,7 @@ If this is useful to you, [star AEGIS on GitHub](https://github.com/antropos17/A
 
 [Visual overview](https://antropos17.github.io/aegis-media/) · [Standalone article](https://write.as/niwig9zl9o4jn.md)
 
+[Codex community discussion](https://github.com/openai/codex/discussions/57001) · [Open App Scout listing](https://openappscout.com/apps/aegis/) · [MCP Harbor listing](https://mcpharbor.app/tools/antropos17-aegis/)
+
 This is the AEGIS project's public media repository. The application source and issue tracker are at [antropos17/Aegis](https://github.com/antropos17/Aegis). Artwork and copy use the MIT license. Source UI screenshots retain their original provenance captions.
 
