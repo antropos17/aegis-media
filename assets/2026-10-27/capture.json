@@ -1,0 +1,31 @@
+{
+  "capturedDate": "2026-10-27",
+  "sourceRevision": "fd10376236edc7294f0ef9b70c7c3b0dd950dc89",
+  "sourceRepository": "https://github.com/antropos17/Aegis",
+  "mode": "Current-source Observatory browser preview with isolated simulated data",
+  "nativeActionsExecuted": false,
+  "liveBlockingDemonstrated": false,
+  "assets": [
+    {
+      "file": "01-action-control-20261027.png",
+      "sha256": "6940ff3ad764683e0bf1f1a3fdc49c305799b331e5d5192d997e537c5309a0b7",
+      "bytes": 122123
+    },
+    {
+      "file": "02-local-security-20261027.png",
+      "sha256": "73bfb150c22c86607fb8492498482e8f981583202076c8d4e4cfde0f44be7cc7",
+      "bytes": 75537
+    },
+    {
+      "file": "03-monitoring-20261027.png",
+      "sha256": "2cfa00d4cc89064fac9e62adad3a27b7c4e4692bc0aae22f2ad10e9fd253f008",
+      "bytes": 79537
+    },
+    {
+      "file": "04-protection-overview-20261027.png",
+      "sha256": "843d3262e9a163d21c6055494c63a94e6a13eafc742b3858ebe7eaeea9c2228c",
+      "bytes": 74174
+    }
+  ],
+  "caption": "Captured 27 October 2026 from the current AEGIS source UI. Simulated data; no live blocking test is depicted."
+}
